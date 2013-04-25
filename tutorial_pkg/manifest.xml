@@ -1,0 +1,17 @@
+<package>
+  <description brief="tutorial pkg">
+
+    tutorial pkg 
+
+  </description>
+  <author>ferko</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/test_tracker_pcl</url>
+  
+  <depend package="pcl"/>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+</package>
+
+
