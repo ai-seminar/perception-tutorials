@@ -38,3 +38,6 @@ rosbuild_link_boost(subscribe system)
 
 rosbuild_add_executable(tutorial src/tutorial.cpp)
 target_link_libraries(tutorial libvtkCommon.so libvtkFiltering.so libvtkRendering.so)
+
+rosbuild_add_executable(register src/registration_tutorial.cpp)
+target_link_libraries(register libvtkCommon.so libvtkFiltering.so libvtkRendering.so)

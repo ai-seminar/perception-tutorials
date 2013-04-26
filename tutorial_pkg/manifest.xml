@@ -8,10 +8,10 @@
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/test_tracker_pcl</url>
-  
-  <depend package="pcl"/>
   <depend package="roscpp"/>
+  <depend package="pcl"/>
   <depend package="sensor_msgs"/>
+  <rosdep name="libvtk"/>
 </package>
 
 
